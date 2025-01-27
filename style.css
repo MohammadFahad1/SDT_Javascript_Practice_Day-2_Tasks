@@ -1,67 +1,104 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.meal-details-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+.meal-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-.search-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 50px 0;
-    gap: 20px;
+.search-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  gap: 20px;
 }
 
-.search-btn{
-    padding: 10px 20px;
-    border: 2px solid #e07409;
-    background-color: #e07409;
-    color: aliceblue;
-    font-weight: bolder;
-    cursor: pointer;
-    border-radius: 5px;
+.search-btn {
+  padding: 10px 20px;
+  border: 2px solid #e07409;
+  background-color: #e07409;
+  color: aliceblue;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-#search{
-    padding: 10px;
-    border: 2px solid #e07409;
-    border-radius: 5px;
-    width: 100%;
-    max-width: 300px;
+#search {
+  padding: 10px;
+  border: 2px solid #e07409;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
 }
 
-.search-btn:hover{
-    box-shadow: 4px 4px 8px #e07409;
+.search-btn:hover {
+  box-shadow: 4px 4px 8px #e07409;
 }
 
-.product-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+.product-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.product{
-    border: 2px solid #e07409;
-    padding: 10px;
-    border-radius: 5px;
-    width: 300px;
-    text-align: center;
+.product {
+  border: 2px solid #e07409;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 20px;
+  box-shadow: 0 0 8px #e07409;
 }
 
-.product img{
-    width: 100%;
+.product h3 {
+  margin: 10px 0;
+  color: #e07409;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.meal-details {
+  border: 2px solid #e07409;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 500px;
+  text-align: left;
+  box-shadow: 0 0 8px #e07409;
+  margin: 20px 0;
+}
+
+.meal-details h2 {
+  margin: 10px 0;
+}
+
+.meal-details h4 {
+  margin: 20px 0 5px;
+}
+
+.meal-details ul {
+  margin: 10px 0;
+}
+
+.meal-details li {
+  margin: 5px 0 0 20px;
+}
+
+.meal-details img {
+  width: 100%;
 }
